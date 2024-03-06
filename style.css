@@ -1,0 +1,128 @@
+.navbar {
+    background-color: blueviolet;
+    height: 100px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    
+}
+
+li{
+    color:black;
+    gap: 20px;
+   
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand,
+.navbar-toggler,
+.search-container,
+.navbar-nav {
+    margin-right: 20px;
+}
+
+.navbar-toggler {
+    margin-left: auto;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.search-container input[type="text"] {
+    padding: 6px 40px 6px 40px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.search-container i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: grey;
+}
+
+.mapcontainer {
+    height: 400px;
+
+}
+
+.pro {
+    margin-top: 10%;
+    gap: 80px;
+    padding-bottom: 40px;
+
+}
+
+
+.col-6 h1 {
+    padding-top: 20px;
+}
+
+.col-6 h2 {
+    color: gray;
+    margin-top: 40px;
+
+}
+
+.map {
+    padding-top: 20px;
+    width: 100px;
+    height: 20px;
+}
+
+
+.card {
+    
+    max-width: 220px;
+    box-shadow: 5px 5px 10px rgba(0, 0.1, 0, 0.1);
+    
+    margin-right: 20px;
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.card img{
+    margin-top: 10px;    
+    height: 110px;
+    width: 140px;
+    border-radius: 15px;
+    
+    background-color: white;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+p{
+    color:grey;
+    background-color: white;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    width: 180px;
+    height: 50px;
+    color:grey;
+    background-color: white;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
